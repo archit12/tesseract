@@ -1,0 +1,6 @@
+<?php
+require_once 'TesseractOCR/TesseractOCR.php';
+
+$tesseract = new TesseractOCR('image.png');
+echo $tesseract->recognize();
+?>
